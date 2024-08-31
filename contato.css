@@ -1,0 +1,54 @@
+body{
+    color: antiquewhite;
+    background-color: rgb(50, 84, 84);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(34, 57, 57);
+}
+
+a{
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+.container {
+    padding: 0px 15px;
+}
+
+fieldset {
+    border: 0;
+}
+
+input, select, textarea, button{
+    border-radius: 5px;
+}
+
+.campo {
+    margin-bottom: 1em;
+}
+
+.campo label{
+    margin-bottom: 0.2em;
+    display: block;
+}
+
+fieldset.grupo .campo{
+    float: left;
+    margin-right: 1em;
+}
+
+.botao {
+    background-color: antiquewhite;
+    border: 0;
+    margin-bottom: 1em;
+    color: rgb(0, 0, 0);
+    padding: 0.2em 0.6em;
+    position: absolute;
+}
